@@ -1,0 +1,134 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(./mountains-morning-snow-rock-mountain-landscape.png);
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+   color: #fff;
+    padding: 10px 0;
+    
+  }
+  
+  .horizontal-line {
+    border-top: 1px solid white;
+    margin-top: -900px; /* Change color and thickness as needed */
+    margin: 20px 0; /* Adjust margin as needed */
+}
+  .back-img{
+   
+    height: 600px;
+  }
+  nav ul {
+    list-style-type: none;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+
+  .content {
+  height: 20px;
+  margin-top: -430px;
+    color: white;
+   justify-content: center;
+   text-align: center;
+  }
+
+  .content h1{
+    font-size: 30px;
+  }
+  
+  .content p{
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+.btn1{
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+  }
+ 
+  .content svg{
+    margin-left: 20px;
+  }
+
+ footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    nav ul li {
+        display: inline;
+     margin-top: 8px;
+      margin-bottom: 5px;
+      justify-content: space-evenly;
+     align-items: center;
+    }
+    .content h1{
+        font-size: 20px;
+      }
+      
+      .content p{
+        font-size: 15px;
+        font-weight: lighter;
+      }
+    
+    .content {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+       
+      }
+  
+    .btn1 {
+        margin-left: 110px;
+      display: block;
+      width: 40%;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .btn2 {
+        margin-left: 110px;
+      display: block;
+      width: 40%;
+      text-align: center;
+      }
+  
+    main {
+      padding: 10px;
+    }
+  }
